@@ -6,17 +6,18 @@ plugins {
 
 android {
     namespace = "es.ramonhg.cricketthermometer"
-    compileSdk = 34
+    compileSdk = 36
 
     defaultConfig {
         applicationId = "es.ramonhg.cricketthermometer"
         minSdk = 24
-        targetSdk = 34
-        versionCode = 1
-        versionName = "1.0"
+        targetSdk =  36
+        versionCode = 3
+        versionName = "1.0.1"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
+
 
     buildTypes {
         release {
